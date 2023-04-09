@@ -20,7 +20,7 @@ const Navbar = (props) => {
           </li>
           <li>
             <Link to="/">About</Link>
-          </li>
+          </li> 
           <li>
             <Link to="/">Contact</Link>
           </li>
@@ -53,11 +53,11 @@ const Navbar = (props) => {
           </Link>
         }
          
-        { 
+        {
           isLoggedIn &&
           <Link to="/dashboard">
             <button type="">Dashboard</button>
-          </Link>
+          </Link> 
         }
       </div>
       
