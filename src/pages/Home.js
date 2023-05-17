@@ -1,11 +1,11 @@
 import React from 'react'
 
-const home = () => {
+const Home = () => {
   return (
-     <div className="flex justify-center items-center">
-      Home
+    <div>
+      
     </div>
   )
 }
 
-export default home
+export default Home
